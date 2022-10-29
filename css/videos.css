@@ -1,0 +1,31 @@
+/* _ */
+
+h2{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+div div{
+    float: left;
+    width: auto;
+    display: inline;
+    margin: 0 auto;
+}
+
+main{
+    margin-bottom: 20vh;
+}
+
+video{
+    width: 560px;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}
+
+div iframe{
+    display: inline;
+    width: 560px;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}

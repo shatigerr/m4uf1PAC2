@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+section{
+    margin-top: 4vh;
+    margin: 25px;
+    width: 80vw;
+}
+
+section h3 {
+    margin: 3vh 0vw;
+}

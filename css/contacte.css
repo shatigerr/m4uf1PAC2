@@ -1,0 +1,65 @@
+main{
+    margin-bottom: 150px;
+}
+
+article > h2{
+    margin-top: 3vh;
+    text-align: center;
+}
+
+h3{
+    margin: 5vh 2vw;
+    text-align: center;
+    
+}
+
+section:nth-child(1){
+    float: left;
+    width: 50%;
+    
+}
+
+section:nth-child(2){
+    float: left;
+    width: 50%;
+    
+}
+
+
+input,textarea{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 5px;
+    background: #e5e2e2;
+    color: black;
+}
+
+textarea{
+    height: 35vh;
+}
+
+iframe{
+    width: 45%;
+    height: 43vh;
+    margin-left: 10px;
+}
+
+input[type="submit"]{
+    background-color: #191919;
+    color: white;
+}
+
+input:hover[type="submit"]{
+    background-color: #d6d3d3;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+    
+

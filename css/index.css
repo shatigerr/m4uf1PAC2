@@ -1,0 +1,50 @@
+.articulo1{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.articulo2{
+    width: 60%;
+    float: left;
+    text-align: left;
+    
+}
+
+main{
+    margin-top: 8vh ;
+    
+    
+}
+
+.articulo2:hover{
+    font-size: 18px;
+}
+
+aside img{
+    margin-top: 3vh;
+}
+
+.noticiasUl li{
+    display: block;
+    text-align: left;
+    
+}
+
+
+
+.articulo2 section{
+    padding: 1em;
+    
+}
+
+footer {
+    
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #191919;
+    color: white;
+    padding: 4vh 0;
+}

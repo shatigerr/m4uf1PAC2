@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+
+div div {
+    float: left;
+    width: auto;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    
+    
+    
+    
+}
+
+main {
+    margin-bottom: 80vh;
+}
