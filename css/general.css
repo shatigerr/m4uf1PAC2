@@ -12,3 +12,7 @@ section{
 section h3 {
     margin: 3vh 0vw;
 }
+
+article{
+    height: auto;
+}

@@ -1,6 +1,15 @@
+.table_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+
 table {
+    color: black;
     text-align: center;
-    margin: 10vh auto;
+    margin-top: 5vh;
     
     
 }

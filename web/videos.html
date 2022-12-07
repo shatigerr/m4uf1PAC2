@@ -13,10 +13,10 @@
         
     </head>
     <body>
-        <header>
+        <header >
             <!-- Background img CSS  -->
         </header>
-        <nav>
+        <nav class="col-12">
             <ul>
                 <li><a href="../index.html">Inici</a></li>
                 <li><a href="./general.html">General</a></li>
@@ -24,26 +24,29 @@
                 <li><a href="./videos.html">Videos</a></li>
                 <li><a href="./agenda.html">Agenda</a></li>
                 <li><a href="./contacte.html">Contacte</a></li>
+                <li><i id="icon" onclick="changeBckgroundColor()" class="fa-solid fa-sun"></i></li>
             </ul>
         </nav>
 
         <main>
             <article>
-                <h2>Capitols Relacionats</h2>
-                <div>
-                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/nq1B59tNMR4" title="YouTube video player" allow="; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/VmPDOVMoaNM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/vigcTtqGV4M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <video src="../vid/capdoraemon.mp4" controls></video>
+                <h2 class="col-12 h2">Capitols Relacionats</h2>
+                <div class="div-container">
+                    <div class="col-12 col-md-6 videos"><iframe height="315" src="https://www.youtube.com/embed/nq1B59tNMR4" title="YouTube video player" allow="; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    
+                    <div class="col-12 col-md-6"><iframe height="315" src="https://www.youtube.com/embed/VmPDOVMoaNM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-12 col-md-6"><iframe  height="315" src="https://www.youtube.com/embed/vigcTtqGV4M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <video id="video" class="col-12 col-md-6" src="../vid/capdoraemon.mp4" controls></video>
                 </div>
             </article>
         </main>
 
-        <footer>
+        <footer class="col-12">
             <p>&copy;2022-2023</p>
             <p>Instagram: <a href="https://instagram.com/dorachan_official?igshid=YmMyMTA2M2Y=" target="_blank">@DoraemonFans</a></p>
             <p>Twitter: <a href="https://twitter.com/emoon_doraemon?s=11" target="_blank">@DoraemonFansTw</a></p>
        </footer>
-
+       <script src="../js/common.js"></script>
+       <script src="https://kit.fontawesome.com/2ff3a08a22.js" crossorigin="anonymous"></script>
     </body>
 </html>

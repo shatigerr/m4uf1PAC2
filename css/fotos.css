@@ -9,17 +9,15 @@ h3{
 }
 
 
-div div {
-    float: left;
-    width: auto;
+
+.container{
+    display: flex;
+    justify-content: space-around;
     margin-top: 10vh;
-    margin-left: 10vw;
-    
-    
-    
-    
+    flex-wrap: wrap;
 }
 
 main {
-    margin-bottom: 80vh;
+    margin-bottom: 20vh;
 }
+

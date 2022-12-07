@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="../css/contacte.css">
     </head>
     <body>
-        <header>
+        <header class="col-12">
             <!-- Background img CSS  -->
         </header>
 
-        <nav>
+        <nav class="col-12">
             <ul>
                 <li><a href="../index.html">Inici</a></li>
                 <li><a href="./general.html">General</a></li>
@@ -24,32 +24,38 @@
                 <li><a href="./videos.html">Videos</a></li>
                 <li><a href="./agenda.html">Agenda</a></li>
                 <li><a href="./contacte.html">Contacte</a></li>
+                <li><i id="icon" onclick="changeBckgroundColor()" class="fa-solid fa-sun"></i></li>
             </ul>
         </nav>
 
         <main>
             <article>
-                <h2>Contactans</h2>
-                <section>
-                    <h3>Envia un comentari per millorar el nostre club de fans</h3>
-                    <form action="post">
+                <h2 class="col-12">Contactans</h2>
+                <section class="col-12 col-md-6 section-form">
+                    <div>
+                        <h3>Envia un comentari per millorar el nostre club de fans</h3>
+                        <form action="post">
                         <input type="email" placeholder="Correo">
                         <textarea cols="30" rows="10"></textarea>
                         <input type="submit">
 
                     </form>
+                    </div>
+                    
                 </section>
-                <section>
+                <section class="col-12 col-md-6">
                     <h3>La nostre sede esta a Japo</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27667883.928861164!2d118.98766799212672!3d32.165751991571554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2zSmFww7Nu!5e0!3m2!1ses!2ses!4v1664459200276!5m2!1ses!2ses" width="600" height="450"></iframe>
+                    <iframe class="iframe-sede"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27667883.928861164!2d118.98766799212672!3d32.165751991571554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2zSmFww7Nu!5e0!3m2!1ses!2ses!4v1664459200276!5m2!1ses!2ses" width="600" height="450"></iframe>
                 </section>
             </article>
         </main>
 
-        <footer>
+        <footer class="col-12">
             <p>&copy;2022-2023</p>
             <p>Instagram: <a href="https://instagram.com/dorachan_official?igshid=YmMyMTA2M2Y=" target="_blank">@DoraemonFans</a></p>
             <p>Twitter: <a href="https://twitter.com/emoon_doraemon?s=11" target="_blank">@DoraemonFansTw</a></p>
        </footer>
+       <script src="../js/common.js"></script>
+       <script src="https://kit.fontawesome.com/2ff3a08a22.js" crossorigin="anonymous"></script>
     </body>
 </html>
