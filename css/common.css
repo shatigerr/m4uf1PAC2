@@ -37,8 +37,8 @@ nav{height: auto;}
 article{height: auto;}
 footer{height: 12.5;}
 /* Video HTML */
-iframe{width: 400px;}
-div #video{width: 400px;} 
+iframe{width: 350px;}
+div #video{width: 350px;} 
 
 
 
@@ -138,13 +138,7 @@ i{
     cursor: pointer;
 }
 
-/*  li {
-  display: inline;
-  margin: 1vw;
-  list-style: none;
-  margin: 15px;
-  
-} */
+
 
 li {
     
